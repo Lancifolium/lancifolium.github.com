@@ -1,0 +1,45 @@
+html {
+	height: 100%;
+	font-family: FangSong, Georgia;
+	webkit-text-size-adjust: 100%;
+	ms-text-size-adjust: 100%;
+}
+
+html {
+	background:url('images/bg_vert.jpg') #333d43;
+}
+body {
+	background:url('images/bg_head.jpg') repeat-x top center, url('images/bg_vert.jpg') repeat-x;
+	background-position:center;
+	background-repeat:repeat-x;
+}
+
+* {
+	letter-spacing:-1px;
+	font-weight:100;
+	margin: 0;
+	padding: 0;
+}
+
+#navgat {
+	color: #ADADAD;
+	font-family: monospace;
+	font-size: 27px;
+}
+
+#navgat ul {
+	overflow: hidden;
+	display: inline-flex;
+}
+
+#navgat li {
+	position: relative;
+	float: inherit;
+	list-style: none;
+}
+
+#navgat a {
+	display: inline-flex;
+	text-decoration: none;
+	padding: 6px 12px 6px;
+}
